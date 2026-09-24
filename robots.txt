@@ -1,5 +1,4 @@
-# DOMAIN NOTE: replace https://sockthedoc.com below with your real domain.
 User-agent: *
 Allow: /
 
-Sitemap: https://sockthedoc.com/sitemap.xml
+Sitemap: https://health.nano-nodes.com/sitemap.xml

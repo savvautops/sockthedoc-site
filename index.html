@@ -1,20 +1,16 @@
-<!-- DOMAIN NOTE: This site is scaffolded to deploy at https://sockthedoc.com (placeholder).
-     The ONLY domain-swap needed: replace every occurrence of https://sockthedoc.com
-     (canonical links, og:url, sitemap.xml, robots.txt) with your real domain. The
-     contact email placeholder is hello@sockthedoc.com — swap for a real inbox. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SockTheDoc — Quack-tastic Health &amp; Fitness Haven</title>
-<meta name="description" content="SockTheDoc is your duck-doctor guide to feeling better, one small habit at a time. Practical tips for sleep, movement, energy, and healthy weight — plus free and premium wellness guides.">
-<link rel="canonical" href="https://sockthedoc.com/">
+<title>SockTheDoc — Practical health tips for real life</title>
+<meta name="description" content="Practical, no-preaching health tips for sleep, movement, energy, and healthy weight. Written by a human, moral support by a duck. Free starter kit, honest disclaimers.">
+<link rel="canonical" href="https://health.nano-nodes.com/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="SockTheDoc">
-<meta property="og:title" content="SockTheDoc — Quack-tastic Health &amp; Fitness Haven">
-<meta property="og:description" content="Practical, judgment-free health and fitness tips from your friendly duck doctor. Free starter kit, blog, and wellness guides.">
-<meta property="og:url" content="https://sockthedoc.com/">
+<meta property="og:title" content="SockTheDoc — Practical health tips for real life">
+<meta property="og:description" content="Health tips that fit a real schedule. Better sleep, easier mornings, steadier energy, one small habit at a time.">
+<meta property="og:url" content="https://health.nano-nodes.com/">
 <link rel="stylesheet" href="styles.css">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A6%86%3C/text%3E%3C/svg%3E">
 </head>
@@ -24,7 +20,6 @@
   <div class="container header-inner">
     <a class="brand" href="index.html" aria-label="SockTheDoc home">
       <span class="brand-mark" aria-hidden="true">
-        <!-- Inline SVG duck-doctor mark: duck head with stethoscope -->
         <svg viewBox="0 0 64 64" width="40" height="40" role="img" aria-label="Sock the duck doctor logo">
           <circle cx="32" cy="34" r="20" fill="#FFC53D"/>
           <circle cx="26" cy="28" r="3" fill="#22302E"/>
@@ -50,78 +45,69 @@
   <!-- HERO -->
   <section class="hero">
     <div class="container hero-inner">
-      <div class="hero-copy">
-        <p class="kicker">🦆 Your friendly duck doctor is in</p>
-        <h1>Feel better, one small quack&nbsp;at&nbsp;a&nbsp;time.</h1>
-        <p class="lede">SockTheDoc is a judgment-free corner of the internet for practical health and fitness tips — better sleep, easier mornings, steadier energy, and habits that actually stick. No miracle cures, no shame, no 4 a.m. ice baths.</p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="free-guide/index.html">Get the Free Starter Kit</a>
-          <a class="btn btn-ghost" href="blog/index.html">Read the Blog</a>
-        </div>
-        <p class="microcopy">Free 7-day guide &middot; No spam, unsubscribe anytime</p>
+      <p class="kicker">Practical health tips, no preaching</p>
+      <h1>Want to feel better without overhauling your life?</h1>
+      <p class="lede">SockTheDoc is health advice for real schedules. Better sleep, easier mornings, steadier energy, one small habit at a time. No miracle cures, no shame, no 4 a.m. ice baths.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="free-guide/index.html">Get the Free Starter Kit</a>
+        <a class="btn btn-ghost" href="blog/index.html">Read the Blog</a>
       </div>
-      <div class="hero-art" aria-hidden="true">
-        <div class="duck-card">
-          <span class="duck-big">🦆</span>
-          <span class="duck-badge">🩺 Dr. Sock, at your service</span>
-        </div>
-      </div>
+      <p class="microcopy">Free 7-day guide &middot; No spam, unsubscribe anytime</p>
     </div>
   </section>
 
-  <!-- NICHE CARDS -->
+  <!-- TOPICS -->
   <section class="section">
     <div class="container">
-      <h2 class="section-title">What’s bugging you today?</h2>
-      <p class="section-sub">Pick your pain point. The duck has notes.</p>
+      <h2 class="section-title">Start with what bugs you</h2>
+      <p class="section-sub">Pick a topic. Every article is written in plain language and reviewed for honesty, not hype.</p>
       <div class="card-grid">
         <a class="niche-card" href="blog/morning-routine-stiff-back-sore-joints.html">
-          <span class="niche-icon">🤸</span>
+          <span class="post-tag">Movement</span>
           <h3>Back &amp; Joint Comfort</h3>
-          <p>Gentle morning movement routines for stiff backs and creaky joints.</p>
+          <p>A gentle 10-minute morning routine for stiff backs and creaky joints.</p>
           <span class="card-link">Read the routine →</span>
         </a>
         <a class="niche-card" href="blog/sleep-hygiene-tips-restless-nights.html">
-          <span class="niche-icon">😴</span>
+          <span class="post-tag">Sleep</span>
           <h3>Better Sleep</h3>
-          <p>Wind-down habits for restless nights and groggy mornings.</p>
+          <p>12 realistic sleep tips for people whose brains won't shut up at midnight.</p>
           <span class="card-link">Read the tips →</span>
         </a>
         <a class="niche-card" href="blog/sustainable-healthy-weight-habits.html">
-          <span class="niche-icon">🥗</span>
+          <span class="post-tag">Nutrition</span>
           <h3>Healthy Weight</h3>
-          <p>Sustainable, shame-free habits — no crash diets, no misery.</p>
+          <p>9 boring, repeatable habits. No crash diets, no misery.</p>
           <span class="card-link">Read the habits →</span>
         </a>
         <div class="niche-card niche-soon">
-          <span class="niche-icon">⚡</span>
+          <span class="post-tag">Soon</span>
           <h3>Steady Energy</h3>
           <p>Beating the 3 p.m. slump without living on caffeine.</p>
-          <span class="card-link">Coming soon</span>
+          <span class="card-link">In the works</span>
         </div>
         <div class="niche-card niche-soon">
-          <span class="niche-icon">🌿</span>
+          <span class="post-tag">Soon</span>
           <h3>Gut Health</h3>
           <p>Fiber, fermented foods, and a happier digestive routine.</p>
-          <span class="card-link">Coming soon</span>
+          <span class="card-link">In the works</span>
         </div>
         <div class="niche-card niche-soon">
-          <span class="niche-icon">🧘</span>
+          <span class="post-tag">Soon</span>
           <h3>Stress &amp; Calm</h3>
           <p>Small daily resets for a wired, tired nervous system.</p>
-          <span class="card-link">Coming soon</span>
+          <span class="card-link">In the works</span>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- LEAD MAGNET CTA -->
+  <!-- LEAD MAGNET -->
   <section class="section band">
     <div class="container split">
       <div class="pdf-mock" aria-hidden="true">
         <div class="pdf-cover">
-          <span class="pdf-duck">🦆</span>
-          <p class="pdf-kicker">The Duck Doctor’s</p>
+          <p class="pdf-kicker">SockTheDoc</p>
           <p class="pdf-title">7-Day<br>Feel-Better<br>Starter Kit</p>
           <p class="pdf-sub">Small habits. Big difference.</p>
         </div>
@@ -129,7 +115,7 @@
       <div>
         <p class="kicker">Free download</p>
         <h2>Start with the 7-Day Feel-Better Starter Kit</h2>
-        <p>One tiny, doable habit per day — a morning stretch, a sleep wind-down, a hydration nudge, and four more. Each takes under ten minutes. By day seven you’ll have a small toolkit of things that genuinely make your days feel easier.</p>
+        <p>One tiny, doable habit per day. A morning stretch, a sleep wind-down, a hydration nudge, and four more. Each takes under ten minutes. By day seven you'll have a small toolkit of things that genuinely make your days feel easier.</p>
         <ul class="checklist">
           <li>7 bite-size daily habits (under 10 minutes each)</li>
           <li>Printable checklists you can stick on the fridge</li>
@@ -140,16 +126,16 @@
     </div>
   </section>
 
-  <!-- BLOG PREVIEW -->
+  <!-- LATEST ARTICLES -->
   <section class="section">
     <div class="container">
-      <h2 class="section-title">Fresh from the pond</h2>
-      <p class="section-sub">Practical reads, written by a duck who did the research.</p>
+      <h2 class="section-title">Latest articles</h2>
+      <p class="section-sub">Long enough to be useful, short enough to read with coffee.</p>
       <div class="card-grid three">
         <a class="post-card" href="blog/morning-routine-stiff-back-sore-joints.html">
           <span class="post-tag">Movement</span>
           <h3>A Gentle 10-Minute Morning Routine for Stiff Backs and Sore Joints</h3>
-          <p>Wake up creaky? This low-impact sequence eases you into the day — no jumping, no pain, no excuses.</p>
+          <p>Wake up creaky? This low-impact sequence eases you into the day. No jumping, no pain, no excuses.</p>
           <span class="card-link">Read more →</span>
         </a>
         <a class="post-card" href="blog/sleep-hygiene-tips-restless-nights.html">
@@ -172,24 +158,19 @@
   <!-- ABOUT BLURB -->
   <section class="section band-soft">
     <div class="container narrow center">
-      <span class="duck-inline" aria-hidden="true">🦆</span>
-      <h2>Meet Dr. Sock</h2>
-      <p>Sock is a duck. Sock is not a doctor. But Sock reads a lot, tests small habits on himself, and writes down what actually helps — in plain language, with zero judgment. Everything here is informational, never medical advice.</p>
+      <p class="kicker">Who's behind this</p>
+      <h2>A human and a duck</h2>
+      <p>SockTheDoc is written by Savv, a web developer from Winnipeg who got tired of health advice written for people with personal chefs. He reads the research, tests small habits on himself, and writes down what actually works. Sock is the duck. He handles morale.</p>
       <p><a class="card-link" href="about.html">The full story →</a></p>
     </div>
   </section>
 
-  <!-- EMAIL SIGNUP -->
+  <!-- NEWSLETTER -->
   <section class="section">
     <div class="container narrow">
       <div class="signup-box">
-        <h2>Get the duck’s weekly notes</h2>
-        <p>One short email a week: a useful tip, a new guide, zero spam. Unsubscribe anytime.</p>
-        <!-- EMAIL FORM PLACEHOLDER: wire this form to your provider.
-             ConvertKit: replace the <form> below with your ConvertKit embed snippet.
-             Buttondown: point action="https://buttondown.email/api/emails/embed-subscribe/YOUR-USERNAME".
-             Mailchimp: use your audience's embedded signup form action URL.
-             Keep the honeypot field to reduce bot signups. -->
+        <h2>One useful email a week</h2>
+        <p>A practical tip, a new article, zero spam. Unsubscribe anytime.</p>
         <form class="signup-form" action="#" method="post" onsubmit="return false;">
           <label class="visually-hidden" for="newsletter-email">Email address</label>
           <input id="newsletter-email" type="email" name="email" placeholder="you@example.com" required autocomplete="email">
@@ -204,8 +185,8 @@
 <footer class="site-footer">
   <div class="container footer-grid">
     <div>
-      <p class="footer-brand">🦆 SockTheDoc</p>
-      <p class="footer-note">Quack-tastic Health &amp; Fitness Haven. Practical wellness tips from a duck who cares.</p>
+      <p class="footer-brand">SockTheDoc</p>
+      <p class="footer-note">Practical health tips for real life. Written by a human, moral support by a duck.</p>
     </div>
     <nav aria-label="Footer">
       <a href="index.html">Home</a>
@@ -218,8 +199,8 @@
   </div>
   <div class="container">
     <p class="disclaimer"><strong>Medical disclaimer:</strong> Sock is a duck, not a doctor. All content on this site is for informational purposes only and is not medical advice, diagnosis, or treatment. Always consult a qualified health professional about any medical condition or before changing your diet, exercise, or sleep habits.</p>
-    <p class="disclaimer"><strong>Affiliate disclosure:</strong> Some links on this site are affiliate links, which means we may earn a commission if you buy through them — at no extra cost to you. This helps keep the pond running. See our <a href="disclosure.html">full disclosure</a>.</p>
-    <p class="copyright">© 2026 SockTheDoc. All rights reserved. · <a href="mailto:hello@sockthedoc.com">hello@sockthedoc.com</a></p>
+    <p class="disclaimer"><strong>Affiliate disclosure:</strong> Some links on this site are affiliate links, which means we may earn a commission if you buy through them, at no extra cost to you. This helps keep the site free. See our <a href="disclosure.html">full disclosure</a>.</p>
+    <p class="copyright">© 2026 SockTheDoc &middot; <a href="mailto:sockonconcrete@gmail.com">sockonconcrete@gmail.com</a> &middot; A <a href="https://nano-nodes.com">nano-nodes</a> project</p>
   </div>
 </footer>
 
